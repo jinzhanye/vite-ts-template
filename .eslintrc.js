@@ -16,13 +16,14 @@ module.exports = {
         sourceType: 'module'
     },
     plugins: ['vue', '@typescript-eslint'],
-    rules: {
-        indent: ['error', 4]
-    },
+    rules: {},
     globals: {
         defineProps: 'readonly',
         defineEmits: 'readonly',
         defineExpose: 'readonly',
-        withDefaults: 'readonly'
+        withDefaults: 'readonly',
+        $: true,
+        Vue: true,
+        Z: true
     }
 }
