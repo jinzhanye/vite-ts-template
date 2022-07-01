@@ -14,9 +14,12 @@
         "cz": "git-cz"
     },
     "dependencies": {
+        "vant": "^3.5.2",
         "vue": "^3.2.25"
     },
     "devDependencies": {
+        "postcss-px-to-viewport": "^1.1.1",
+        "postcss-pxtorem": "^6.0.0",
         "@commitlint/cli": "^16.2.1",
         "@commitlint/config-conventional": "^16.2.1",
         "@typescript-eslint/eslint-plugin": "^5.12.1",

@@ -9,6 +9,17 @@ const count = ref(0)
 <template>
     <h1>{{ msg }}</h1>
 
+    <van-cell-group>
+        <van-cell title="单元格" value="内容" />
+        <van-cell title="单元格" value="内容" label="描述信息" />
+    </van-cell-group>
+
+    <van-icon name="chat-o" size="40" />
+
+    <van-image width="100" height="100" lazy-load src="https://fastly.jsdelivr.net/npm/@vant/assets/cat.jpeg" />
+
+    <div class="rem-test">rem测试</div>
+
     <p>
         Recommended IDE setup:
         <a href="https://code.visualstudio.com/" target="_blank">VSCode</a>
@@ -29,6 +40,33 @@ const count = ref(0)
         Edit
         <code>components/HelloWorld.vue</code> to test hot module replacement.
     </p>
+
+    <p>
+        Edit
+        <code>components/HelloWorld.vue</code> to test hot module replacement.
+    </p>
+
+    <p>
+        Edit
+        <code>components/HelloWorld.vue</code> to test hot module replacement.
+    </p>
+
+    <p>
+        Edit
+        <code>components/HelloWorld.vue</code> to test hot module replacement.
+    </p>
+
+    <p>
+        Edit
+        <code>components/HelloWorld.vue</code> to test hot module replacement.
+    </p>
+
+    <p>
+        Edit
+        <code>components/HelloWorld.vue</code> to test hot module replacement.
+    </p>
+
+    <van-image width="100" lazy-load height="100" src="https://fastly.jsdelivr.net/npm/@vant/assets/cat.jpeg" />
 </template>
 
 <style scoped>
@@ -46,5 +84,9 @@ code {
     padding: 2px 4px;
     border-radius: 4px;
     color: #304455;
+}
+
+.rem-test {
+    height: 100px;
 }
 </style>
